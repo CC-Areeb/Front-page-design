@@ -1,0 +1,360 @@
+.nav{
+    background-color: black;
+    overflow: hidden;
+    margin-top: -10px;
+    text-decoration: none;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-decoration: none;
+}
+
+.nav-one a{
+    text-decoration: none;
+    float: right;
+    padding: 20px 10px; /* 20px at start is up down and 10px is left and right */
+    margin-right: 90px;
+    font-weight:bold;
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-size: larger;
+}
+
+.nav :hover{
+    color: midnightblue;
+    background-color:white;
+}
+
+.nav-two a{
+    text-decoration: none;
+    float: left;
+    padding: 20px 10px; /* 20ox at start is up down and 10px is left and right */
+    margin-left: 90px;
+    font-weight:bold;
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-size: larger;
+    
+}
+
+.main-body{
+    text-align: center;
+    margin-top: 120px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.paragraph{
+    text-align: center;
+    padding: 0px 500px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.button-top{
+    margin-bottom: 200px;
+}
+
+.button-one{
+margin-top: 0px;
+margin-left: 730px;
+display: inline-block;
+}
+
+.button-two{
+    display: inline-block;
+    position: absolute;
+}
+.button{
+    background-color: royalblue;
+    color: seashell;
+    padding: 10px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button-2{
+    background-color: gray;
+    color: seashell;
+    padding: 10px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+
+/* .card-set-1{
+
+} */
+
+.card_1{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 400px;
+}
+
+.card_2{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 700px;
+    margin-top: -282px;
+}
+
+.card_3{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 1000px;
+    margin-top: -282px;
+}
+
+.button-3{
+    background-color: white;
+    border-style:solid;
+    border-width: thin;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.button-4{
+    background-color: white;
+    border-style:solid;
+    border-width: thin;
+}
+
+.card_4{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 700px;
+    margin-top: 52px;
+}
+
+.card_5{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 400px;
+    margin-top: -285px;
+}
+
+.card_6{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 1000px;
+    margin-top: -285px;
+}
+
+.card-holder{
+    background-color: whitesmoke;
+    overflow: auto;
+    padding: 60px;
+}
+
+.card_7{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.card_8{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 700px;
+    margin-top: -280px;
+}
+
+.card_9{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 1000px;
+    margin-top: -280px;
+}
+
+.card_10{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-right: 1500px;
+    margin-left: 400px;
+    margin-top: -5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 118px;
+}
+
+.card_11{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-left: 48px;
+    margin-top: -41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 125px;
+}
+
+.card_12{
+    color: white;
+    border-style:solid;
+    border-width: thin;
+    border-color: royalblue;
+    background-color: royalblue;
+    float: left;
+    margin-left: 1000px;
+    margin-top: -293px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 77px;
+}
+
+.free{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;
+    margin-left: 400px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 51px;
+}
+
+.pro{
+    border-style:solid;
+    border-width: thin;
+    border-color: gray;
+    float: left;   
+    margin-left: -252px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 54px;
+    padding-right: 55px;
+}
+
+.enterprise{
+    border-style:solid;
+    border-width: thin;
+    border-color: royalblue;
+    float: left;   
+    margin-left: 1000px;
+    margin-top: -253px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 54px;
+    padding-right: 37px;
+}
+
+.ent-sign-up-button, .pro-sign-up-button{
+    background-color: royalblue;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.free-sign-up-button{
+    background-color: white;
+    font-size: large;
+    font-family: sans-serif;
+    color: royalblue;
+    border-color: royalblue;
+}
+
+.down-menu{
+    background-color: whitesmoke;
+    overflow: auto;
+}
+
+.down-holder{
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#name{
+    margin-left: 200px;
+}
+
+#mail{
+    margin-left: 350px;
+    margin-top: -33px;
+}
+
+#number{
+    margin-left: 550px;
+    margin-top: -33px;
+}
+
+
+#address{
+    margin-left: 750px;
+    margin-top: -33px;
+}
+
+.seperator{
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.seperator-2{
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: thin;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.foot{
+    font-size: large;
+    font-family: sans-serif;
+    margin-left: 300px;
+    padding-bottom: 30px;
+}
+
+.back-to-top-button{
+    font-size: large;
+    font-family: sans-serif;
+    margin-left: 1345px;
+    margin-top: -90px;
+}
